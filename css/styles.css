@@ -1,0 +1,58 @@
+header{
+    background-color: #0056b3;
+}
+
+#bgimage{
+    background-size: cover;
+    min-height: 0px;
+}
+
+body{
+    height: 100%;
+}
+
+html{
+    background-color:#0056b3 ;
+    height: 100%;
+}
+
+main{
+    background-color: #80bdff;
+    height: 100%;
+    padding: 50px;
+}
+
+.btn{
+    width: 100px;
+    margin: 5px;
+}
+
+
+.registor{
+    display: none;
+}
+
+
+@media all and (min-width: 992px) {
+
+    .btngrup{
+
+        text-align: right;
+
+    }
+
+}
+
+@media all and (max-width: 768px) {
+
+    .btn{
+
+        width: 100%;
+
+    }
+
+    #bgimage{
+        display: none;
+    }
+
+}
