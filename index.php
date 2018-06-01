@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="fw/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="fw/js/jquery-3.3.1.min.js"></script>
-    <title>Title</title>
+    <title>Log in</title>
 </head>
 
 <body class="container">
@@ -49,7 +49,7 @@
             </div>
 
             <div class="btngrup col-lg-12">
-                <button class="btn btn-sm btn-primary" id="btnregistor" type="button">Registor</button>
+                <a href="registor.php"> <button class="btn btn-sm btn-primary" id="btnregistor" type="button">Registor</button></a>
                 <button class="btn btn-sm btn-success" id="btnlog" type="submit">Sign in</button>
             </div>
         </form>
@@ -58,8 +58,7 @@
 </main>
 </body>
 
-
+<script src="fw/js/jquery-3.3.1.min.js"></script>
 
 <script src="js/script.js"></script>
-<script src="fw/js/jquery-3.3.1.min.js"></script>
 </html>

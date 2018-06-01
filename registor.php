@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="fw/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="fw/js/jquery-3.3.1.min.js"></script>
-    <title>Title</title>
+    <title>Registor</title>
 </head>
 
 <body class="container">
@@ -39,15 +39,11 @@
                            placeholder="enter valid username">
                 </div>
             </div>
-
-
-            <div class="registor">
-                <div class="form-group row ">
-                    <label for="colFormLabelSm" class="col-lg-2 col-form-label col-form-label-sm">Email</label>
-                    <div class="col-md-10">
-                        <input type="email" class="form-control form-control-sm" id="colFormLabelSm"
-                               placeholder="enter valid email">
-                    </div>
+            <div class="form-group row ">
+                <label for="colFormLabelSm" class="col-lg-2 col-form-label col-form-label-sm">Email</label>
+                <div class="col-md-10">
+                    <input type="email" class="form-control form-control-sm" id="colFormLabelSm"
+                           placeholder="enter valid email">
                 </div>
             </div>
 
@@ -60,17 +56,15 @@
                 </div>
             </div>
 
-            <div class="registor">
-                <div class="form-group row">
-                    <label for="colFormLabelSm" class="col-lg-2 col-form-label col-form-label-sm">Confirm
-                        Password</label>
-                    <div class="col-md-10">
-                        <input type="password" class="form-control form-control-sm" id="colFormLabelSm"
-                               placeholder="Password">
-                    </div>
+            <div class="form-group row">
+                <label for="colFormLabelSm" class="col-lg-2 col-form-label col-form-label-sm">Confirm
+                    Password</label>
+                <div class="col-md-10">
+                    <input type="password" class="form-control form-control-sm" id="colFormLabelSm"
+                           placeholder="Password">
                 </div>
-
             </div>
+
             <div class="btngrup col-lg-12">
                 <button class="btn btn-sm btn-primary" id="btnreg" type="button">Registor</button>
                 <button class="btn btn-sm btn-success" id="btnlogin" type="button">Sign in</button>
