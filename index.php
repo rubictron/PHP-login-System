@@ -10,10 +10,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <link rel="stylesheet" href="fw/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="fw/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="fw/js/jquery-3.3.1.min.js"></script>
+
     <title>Log in</title>
 </head>
 
@@ -36,7 +36,7 @@
                 <label for="colFormLabelSm" class="col-lg-2 col-form-label col-form-label-sm">Username</label>
                 <div class="col-md-10">
                     <input type="text" class="form-control form-control-sm" id="username" name="username"
-                           placeholder="enter valid username">
+                           placeholder="enter valid username" required>
                 </div>
             </div>
 
@@ -44,21 +44,20 @@
                 <label for="colFormLabelSm" class="col-lg-2 col-form-label col-form-label-sm">Password</label>
                 <div class="col-md-10">
                     <input type="password" class="form-control form-control-sm" id="password" name="password"
-                           placeholder="Password">
+                           placeholder="Password" required>
                 </div>
             </div>
 
             <div class="btngrup col-lg-12">
-                <a href="registor.php"> <button class="btn btn-sm btn-primary" id="btnregistor" type="button">Registor</button></a>
+                <button class="btn btn-sm btn-primary" id="btnopenreg" type="button">Registor</button>
                 <button class="btn btn-sm btn-success" id="btnlog" type="submit">Sign in</button>
             </div>
         </form>
     </div>
+    <script type="text/javascript" src="fw/js/jquery-3.3.1.min.js"></script>
 
+    <script type="text/javascript" src="js/script.js"></script>
 </main>
 </body>
 
-<script src="fw/js/jquery-3.3.1.min.js"></script>
-
-<script src="js/script.js"></script>
 </html>

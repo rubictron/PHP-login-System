@@ -1,9 +1,9 @@
 
 
-$('#btnregistor').click(
-
+$('#btnopenreg').click(
     function () {
-        console.log("aaaaaa");
-
+        console.log('aaa');
+        window.location.replace("registor.php")
     }
 );
+
