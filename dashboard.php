@@ -68,7 +68,7 @@ include "logincheck.php";
         function () {
 
             console.log("log out");
-            window.location.replace('controller.php');
+            window.location.replace('logincontroller.php');
 
        }
    );
