@@ -82,7 +82,7 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
                 $_SESSION['username']=$rowData[1];
                 $_SESSION['userlevel']=$rowData[3];
 
-                header("Location:index.php");
+                header("Location:dashboard.php");
 
 
             }else{
