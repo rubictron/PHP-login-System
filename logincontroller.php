@@ -6,6 +6,7 @@
  * Time: 7:53 PM
  */
 
+include "logincheck.php";
 
 if(isset($_POST['username'])&&isset($_POST['password'])&&isset($_POST['email'])&&isset($_POST['cpassword'])){
 
@@ -76,6 +77,20 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
             if( password_verify($password,$hash)){
 
                 echo "log confirm";
+                session_start();
+                $_SESSION['exist']="true";
+                $_SESSION['username']=$rowData[1];
+                $_SESSION['userlevel']=$rowData[3];
+
+                header("Location:index.php");
+
+
+            }else{
+
+
+                echo "password or username is not matched";
+                header("Location:index.php");
+
 
             }
 
@@ -84,4 +99,12 @@ else if(isset($_POST['username'])&&isset($_POST['password'])){
 
 
     }
+}else{
+
+    session_start();
+    session_unset();
+    session_destroy();
+
+    header('Location:index.php');
+
 }

@@ -5,6 +5,7 @@
  * Date: 5/7/18
  * Time: 3:43 PM
  */
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +31,7 @@
         <div style="height: 100px">
 
         </div>
-        <form id="formreg" action="controller.php" method="post" enctype="application/x-www-form-urlencoded">
+        <form id="formreg" action="logincontroller.php" method="post" enctype="application/x-www-form-urlencoded">
             <div class="form-group row">
                 <label for="colFormLabelSm" class="col-lg-2 col-form-label col-form-label-sm">Username</label>
                 <div class="col-md-10">
